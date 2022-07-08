@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>me page</title>
+    <style>
+        body{
+            background-color: cadetblue;
+            font: normal 40pt Arial;
+            color:chartreuse;
+        }
+    </style>
+</head>
+<body>  
+    <h1>Iniciando aulas de DOM</h1>
+    <p>aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">clique em mim</div>
+    <script>
+        /*var corpo = window.document.body
+        var d = window.document.getElementById('msg')
+        d.style.background= 'blue'//var com mudança de fundo por id.
+        //window.document.getElementById('msg').innerText = 'hi'//forma completa de modificar um elemento por id.
+        d.innerText='estou aguardando...'//forma contraida de modificar um elemento por id
+        */
+       var m = window.document.querySelector('div#msg')
+       m.style.background = 'red'
+    
+    
+    
+    </script>
+</body>
+</html>
